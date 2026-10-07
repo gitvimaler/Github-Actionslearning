@@ -1,0 +1,14 @@
+name: Manual trigger
+
+on: workflow_dispatch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+
+    steps:
+      - name: Manul trigger
+        run: |
+         echo "Hello-Vimal."
+         echo "Class-1 Completed."

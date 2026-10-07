@@ -1,0 +1,17 @@
+name: push command trigger
+
+on: push
+
+jobs:
+  mybuild:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: triggered on clicking commit
+        run: |
+         echo "Hello."
+         echo "Second-lesson"
+         echo "Triggered on clicking commit."
+       
+       
+      
